@@ -10,7 +10,7 @@ public class EmployeeOne
     public EmployeeOne() {
     }
 
-    double calTax(){
+    double calculateTax(){
         if(this.salary > 500000.00 && this.salary < 1000000)
             return this.salary*0.1;
 
